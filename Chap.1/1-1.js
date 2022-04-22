@@ -2,6 +2,6 @@
 // 변수 선언
 
 
-var a;
+var a;  //  선언
 
 console.log(a)
