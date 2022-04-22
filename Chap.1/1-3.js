@@ -1,12 +1,16 @@
 // 1-3
 // 불변성
-// 식별자 a
 
-var a;  // 변수 a 선언
-a = 'abc'; // 변수 a에 데이터 할당
-
+var a = 'abc';  // 변수 선언 및 할당
 console.log(a)
 
-var a = 'abc';  // 한 문장으로 표현
-
+a = a + 'def';
 console.log(a)
+
+var b = 5;
+var c = 5;
+console.log(b)
+console.log(c)
+
+b = 7;
+console.log(b)
