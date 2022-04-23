@@ -84,6 +84,8 @@ undefined --> JS engine이 자동으로 부여
 ### 1.20
 빈 배열에는 undefined 조차 할당되지 않음
 
-
+### 1.21
+forEach: undefined도 하나의 요소로 취급, empty는 요소로 취급 x (for문 자체가 안돔)
+undefined + 0 = Nan / empty + 0 = empty --> (for문 건너뜀)
 
 
