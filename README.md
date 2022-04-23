@@ -1,5 +1,7 @@
 # 2022_1_IoT_class
 
++ Chap.1 README를 여기에 적다가 Chap.1 폴더로 옮겼는데 Chap.1의 README에는 commit 기록이 없어졌네요(????).
+
 ## Cha. 1
 
 ### 1.1
