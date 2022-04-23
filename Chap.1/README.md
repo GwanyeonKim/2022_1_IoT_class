@@ -88,4 +88,7 @@ undefined --> JS engine이 자동으로 부여
 forEach: undefined도 하나의 요소로 취급, empty는 요소로 취급 x (for문 자체가 안돔)
 undefined + 0 = Nan / empty + 0 = empty --> (for문 건너뜀)
 
-
+### 1.22
+null은 'object'
+null == undefined  O (동등 연산자)
+null === undefined X (일지 연산자)
