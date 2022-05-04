@@ -61,14 +61,17 @@ b가 'bbb'를 가리킴
 scope: 식별자에 대한 유효범위
 전역 컨텍스트 -- outer -- inner  
 
-전역 컨텍스트 1. 외부: null  
-             2. 내부: var a, var outer  
+전역 컨텍스트--
+1. 외부: null  
+2. 내부: var a, var outer  
 
-outer 컨텍스트 1. 외부: '전역 컨텍스트' 참조  
-              2. 내부: var inner  
+outer 컨텍스트--
+1. 외부: '전역 컨텍스트' 참조  
+2. 내부: var inner  
 
-inner 컨텍스트 1. 외부: 'outer 컨텍스트' 참조  
-              2. 내부: var a  
+inner 컨텍스트--
+1. 외부: 'outer 컨텍스트' 참조  
+2. 내부: var a  
 
 ### 2.14
 예제 13 하면서 이해함
