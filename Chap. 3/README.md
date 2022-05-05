@@ -128,7 +128,13 @@ slice: Array인 속성을 가진 애들만 사용할 수 있음
 call/aplly 매서드의 활용 1-2) arguments.NodeList에 배열 메서드를 적용
 
 ### 3.19
+문자열도 array-like이다.  
+read only --> 내용을 바꾸는건 안됨 (원본 유지해야함)  
 
+concat은 대상이 반드시 배열이어야함   
+에러는 없지만 결과가 이상할 수 있음  
+
+// reduce: transform (바꾼다)
 
 ### 3.20
 
