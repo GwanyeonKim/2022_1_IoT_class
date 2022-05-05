@@ -25,16 +25,24 @@ cb1 함수를 콜스택에 넣음
 출력 이후 콜스택에서 console.log('Bye') 사라짐  
 
 ### 3.0.2
-콜스택, Web APIs, 콜백큐, 이벤트 루프
+콜스택, Web APIs, 콜백큐, 이벤트 루프  
 
-setTimeout의 시간을 0으로 하면 결과가 어떻게 나올까?
-Hi - Bye - cb1
+setTimeout의 시간을 0으로 하면 결과가 어떻게 나올까?  
+Hi - Bye - cb1  
 
-콜백큐에 cb1이 들어갔을 때, 
-Bye가 콜스택에 있으므로 Bye가 수행된 후에 cb1이 실행됨
+콜백큐에 cb1이 들어갔을 때,   
+Bye가 콜스택에 있으므로 Bye가 수행된 후에 cb1이 실행됨  
 
 ### 3.1
-  
+자바스크립트의 this와 다른 언어의 this는 전혀 다름 
+
+gloabal object
+브라우저 --> window
+Nodejs  --> global
+자바스크립트 관점에서는 거의 같다고 보면 됨
+
+브라우저 환경
+this = window
 
 ### 3.2 
 
