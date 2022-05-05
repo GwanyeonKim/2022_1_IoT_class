@@ -125,7 +125,7 @@ slice: Array인 속성을 가진 애들만 사용할 수 있음
 복제라기 보다는 array를 자르고 붙이는 함수임  
 
 ### 3.18
-
+call/aplly 매서드의 활용 1-2) arguments.NodeList에 배열 메서드를 적용
 
 ### 3.19
 
