@@ -140,7 +140,7 @@ concat은 대상이 반드시 배열이어야함
 call/aplly 매서드의 활용 1-4) ES6의 Array. from 메서드
 
 ### 3.21
-
+함수 안의 this.???에서 this는 함수의 this를 말함
 
 ### 3.22
 
