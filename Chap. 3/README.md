@@ -60,7 +60,14 @@ update: false, delete: false
 global.a = 1;로 해야 업데이트 및 삭제
 
 ### 3.6
+다른 언어  
+function: 단독으로 사용되는 함수  
+method:   object 안에 있는 함수  
+ 
+JS에서는 좀 다름 (컴파일 타임에서는 다른 언어와 같음, 런타임에서는 전혀 다름)  
 
+단독으로 사용될 때, func를 부른 것은 전역이므로 this는 전역  
+obj 안에서 호출될 때, func를 부른 것은 obj이므로 this는 obj   
 
 ### 3.6
 
