@@ -137,7 +137,7 @@ concat은 대상이 반드시 배열이어야함
 // reduce: transform (바꾼다)
 
 ### 3.20
-
+call/aplly 매서드의 활용 1-4) ES6의 Array. from 메서드
 
 ### 3.21
 
