@@ -108,10 +108,21 @@ call을 사용하여 임의의 객체를 this를 지정할 수 있다.
 
 ### 3.16
 call: 첫 번째 인자 제외하고 뒤에 모든 인자는 호출할 함수의 매개변수  
-apply: 호출할 함수의 매개변수를 배열로 받음
+apply: 호출할 함수의 매개변수를 배열로 받음  
 
 ### 3.17
+array도 이 예제의 obj와 같이 들어가 있음  
 
+push: Array인 속성을 가진 애들만 사용할 수 있음  
+배열에만 사용할 수 있는 push를 object에도 사용하고 싶다   
+push의 this를 obj로 설정  
+push 함수는 자신의 this와 length를 사용함  
+obj 자리에 들어가는 것이 index와 length를 가지고 있기만 하면 됨  
+=> array-like object  
+
+slice: Array인 속성을 가진 애들만 사용할 수 있음  
+복제하는 녀석임  
+복제라기 보다는 array를 자르고 붙이는 함수임  
 
 ### 3.18
 
