@@ -3,7 +3,7 @@
 
 // array도 이 예제의 obj와 같이 들어가 있음
 
-// // push: Array인 속성을 가진 애들만 사용할 수 있음
+// push: Array인 속성을 가진 애들만 사용할 수 있음
 // 배열에만 사용할 수 있는 push를 object에도 사용하고 싶다
 // push의 this를 obj로 설정
 // push 함수는 자신의 this와 length를 사용함
