@@ -57,7 +57,7 @@ update: false, delete: false
 윈도우  접근 방식으로는 업데이트 삭제 불가능  
 
 ### 3.5
-
+global.a = 1;로 해야 업데이트 및 삭제
 
 ### 3.6
 
