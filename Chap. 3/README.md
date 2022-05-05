@@ -89,7 +89,11 @@ arrow function: 자기만의 this가 없음
 scope chain을 따라가서 나오는 첫 번째 나오는 this를 사용
 
 ### 3.12
+함수: object의 일종으로 생각  
+함수를 함수의 argument로 사용 가능함  
 
+콜백 함수를 사용하는 함수에 따라 this가 정해짐  
+우리가 정할 수 없음  
 
 ### 3.13
 
