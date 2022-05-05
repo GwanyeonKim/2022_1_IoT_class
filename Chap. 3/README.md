@@ -45,7 +45,8 @@ Nodejs  --> global
 this = window
 
 ### 3.2 
-
+nodejs 환경  
+this = global
 
 ### 3.3
 
