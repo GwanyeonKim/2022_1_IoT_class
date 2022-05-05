@@ -85,7 +85,8 @@ this는 내부 함수와 전혀 상관없음
 내부함수에서의 this를 우회하는 방법
 
 ### 3.11
-
+arrow function: 자기만의 this가 없음
+scope chain을 따라가서 나오는 첫 번째 나오는 this를 사용
 
 ### 3.12
 
