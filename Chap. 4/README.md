@@ -56,6 +56,7 @@ forEach: for문과 같다고 보면 됨
 addEventListener - web API  
 
 ### 4.7
+logValues - obj의 method
 
 
 ### 4.8
