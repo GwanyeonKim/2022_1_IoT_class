@@ -27,6 +27,14 @@ array.prototype: array instance가 활용할 수 있는 methods가 있음
 array.prototype.map(callback[, thisArg])  
 callback: function(currentValue, index, array)  
 
+### 4.4
+.map을 사용하기 위한 콜백 함수 프로토콜   
+array.prototype.map(callback[, thisArg])  
+callback: function(currentValue, index, array)  
+ 
+currentValue, index 이름을 바꿔서 사용한다고 달라지지 않음  
+Just 인자의 이름일 뿐 임  
+
 ### 4.5
  
 
