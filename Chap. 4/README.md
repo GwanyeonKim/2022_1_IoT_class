@@ -47,7 +47,13 @@ Just 인자의 이름일 뿐 임
 A||B  --> A가 없으면 B를 수행, A가 있으면 A를 실행  
 
 ### 4.6
+setTimeout - web API  
+일정 시간 뒤에 콜백 함수를 실행하라  
+setTimeout의 콜백 함수의 this는 window/global  
 
+forEach: for문과 같다고 보면 됨  
+
+addEventListener - web API  
 
 ### 4.7
 
