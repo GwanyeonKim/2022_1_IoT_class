@@ -20,7 +20,12 @@
 
 
 ### 4.3
- 
+map: array.prototype 안에 있는 속성 중에 하나  
+array.prototype: array instance가 활용할 수 있는 methods가 있음  
+
+.map을 사용하기 위한 콜백 함수 프로토콜   
+array.prototype.map(callback[, thisArg])  
+callback: function(currentValue, index, array)  
 
 ### 4.5
  
