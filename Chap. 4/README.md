@@ -60,7 +60,8 @@ logValues - obj의 method
 
 
 ### 4.8
-
+self를 이용한 this 바인딩
+this를 다른 변수에 담아서 넘기기
 
 ### 4.9
 
