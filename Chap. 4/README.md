@@ -97,6 +97,8 @@ resolve -- chained에 있는 onFulfilled를 차례대로 실행
 reject   --chained에 있는 onRejected를 차례대로 실행  
 
 ### 4.15
+promise를 사용하기 때문에 가독성이 좋아진다.
+시간 지연에 구애 받지 않고 비동기 프로그래밍 가능
 
 
 ### 4.16
