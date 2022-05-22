@@ -27,7 +27,6 @@ array.prototype: array instance가 활용할 수 있는 methods가 있음
 array.prototype.map(callback[, thisArg])  
 callback: function(currentValue, index, array)  
 
-
 ### 4.4
 .map을 사용하기 위한 콜백 함수 프로토콜   
 array.prototype.map(callback[, thisArg])  
@@ -57,19 +56,21 @@ forEach: for문과 같다고 보면 됨
 addEventListener - web API  
 
 ### 4.7
+logValues - obj의 method
 
 
 ### 4.8
-
+self를 이용한 this 바인딩
+this를 다른 변수에 담아서 넘기기
 
 ### 4.9
-
+name 자체를 넘겨서 this 사용하지 않고 하기
 
 ### 4.10
-
+앞에 예제 복습 + 응용
 
 ### 4.11
-
+앞에 예제 복습 + 응용
 
 ### 4.12
 
