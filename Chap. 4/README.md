@@ -73,15 +73,32 @@ name 자체를 넘겨서 this 사용하지 않고 하기
 앞에 예제 복습 + 응용
 
 ### 4.12
+콜백함수를 인자로 넘겨서 비동기 시스템을 만들 때 이런 문제가 발생한다.  
+콜백 함수를 중첩해서 사용하기 때문에 들여쓰기를 계속 사용하게 됨.  
+따라서 가독성이 매우 떨어지는 문제가 발생한다.  
 
+이를 해결하기 위해 Promise 또는 async/await을 이용한다.   
 
 ### 4.13
-
+익명의 콜백함수  -->  기명함수  
+코드의 가독성을 높임  
 
 ### 4.14
+promise의 resolve와 reject  
+resolve - promise의 state를 pending에서 fulfilled로 바꾸고 value에 인자 값을 넣어줌  
+reject - promise의 state를 pending에서 reject으로 바꾸고 value에 인자 값을 넣어줌  
+둘이 동시에 실행되게 하면 안됨  
 
+then(onFulfilled, onRejected) : promise 객체 안에 있는 함수  
+state가 fulfilled면 onFulfilled 실행, onRejected면 reject 실행   
+만약 state가 pendding이면, chained[]이라는 배열에 onFulfilled와 onRejected를 저장  
+
+resolve -- chained에 있는 onFulfilled를 차례대로 실행  
+reject   --chained에 있는 onRejected를 차례대로 실행  
 
 ### 4.15
+promise를 사용하기 때문에 가독성이 좋아진다.
+시간 지연에 구애 받지 않고 비동기 프로그래밍 가능
 
 
 ### 4.16
