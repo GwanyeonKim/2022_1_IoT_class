@@ -4,8 +4,11 @@
 // 일반 함수는 하나의 값만 반환 가능
 // 여러 개의 값을 필요에 따라 하나씩 반환 할 수 있음
 
+// generator를 사용해 비동기 처리를 동기 처리처럼 구현 가능
+
 // yield와 return을 통해서 하나씩 순서대로 반환함
 // return까지 가면 다음 순서에는 data가 나오지 않음
+
 
 
 var addCoffee = function(prevName, name) {
