@@ -111,3 +111,10 @@ yield와 return을 통해서 하나씩 순서대로 반환함
 return까지 가면 다음 순서에는 data가 나오지 않음  
 
 ### 4.17
+async/awit --> 가독성이 뛰어남  
+비동기 작업을 수행하고자 하는 함수 앞에 async 표기  
+함수 내부에서 비동기 작업이 필요한 위치마다 await 표기  
+뒤의 내용을 promise 자동 전환  
+그 내용이 resolve된 이후에 다음 코드 진행  
+
+promise의 then과 유사하다.  
