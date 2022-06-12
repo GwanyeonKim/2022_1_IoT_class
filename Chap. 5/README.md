@@ -92,7 +92,8 @@ moved: ReadOnly
   
 
 ### 5.13
-
+var addPartial = add.bind(null, 1, 2, 3, 4, 5); -->  this = null    
+                                                -->  arg = 1,2,3,4,5 
 
 ### 5.14
 
