@@ -63,8 +63,9 @@ a는 inner 함수 내부의 변수가 아님
 
 
 ### 5.8
-
-
+alertFruit --> 클로저가 없음  
+alertFruit에 fruit을 args로 넣어주고 새로운 function으로 return한다.  
+ 
 ### 5.10
 
 
