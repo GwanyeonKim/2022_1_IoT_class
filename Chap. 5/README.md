@@ -74,7 +74,11 @@ alertFruitBuilder 함수 내부에서 익명 함수 반환 --> 익명함수는 �
 alertFruitBuilder의 실행 결과로 반환된 함수에는 클로저가 있음  
  
 ### 5.10
+Car 변수에 객체를 직접 할당  
 
+run을 이용하여 랜덤으로 연료, 연료비 생성됨  
+
+하지만, car.fuel/car.power/car.moved로 내부 값을 직접 바꿀 수 있으므로 이를 막을 필요가 있음  
 
 ### 5.11
 
