@@ -98,18 +98,18 @@ var addPartial = add.bind(null, 1, 2, 3, 4, 5); -->  this = null
 ### 5.14
 5-13은 this가 null이 됨  
 
-5-14는 클로저를 이용해서 5-13 구현  
+5-14는 클로저를 이용해서 5-13 구현    
 
 
-클로저 변수: originalPartialArgs, func
+클로저 변수: originalPartialArgs, func  
 
 
-slice: 어레이를 받는 함수
-originalPartialArgs--> slice-like 함수
-따라서 slice 함수의 인자로 slice-like 인자를 주기 위해 slice.call을 이용
+slice: 어레이를 받는 함수  
+originalPartialArgs--> slice-like 함수  
+따라서 slice 함수의 인자로 slice-like 인자를 주기 위해 slice.call을 이용  
 
 ### 5.15
-Object.defineProperty(object, property) {새로운 정의}
+Object.defineProperty(object, property) {새로운 정의}  
 
 5-14랑 같은 코드 Object.defineProperty 이것만 추가됨
 
@@ -121,15 +121,15 @@ Object.defineProperty(object, property) {새로운 정의}
 디바운스를 실행하면 클로저 변수가 묶여 있는 상수 함수가 리턴됨  
 
 ### 5.17
-커리: 함수를 변형하는 과정을 말함   
+커리: 함수를 변형하는 과정을 말함     
 함수의 전달 인자 중 몇 개를 미리 채움으로써 더 간단한 함수를 만드는 방법  
 
 사용하는 이유: 어떤 함수를 호출할 때 대부분의 매개 변수가 비슷하면 커링 사용  
 
-커링은 한 번에 하나의 인자만 전달
-중간 과정 중에는 함수를 실행한 결과 --> 그 다음 인자를 받기 위해 오로지 대기
-마지막 인자가 전달되기 전 --> 원본 함수 실행 안됨
+커링은 한 번에 하나의 인자만 전달  
+중간 과정 중에는 함수를 실행한 결과 --> 그 다음 인자를 받기 위해 오로지 대기  
+마지막 인자가 전달되기 전 --> 원본 함수 실행 안됨  
 
 
 ### 5.18
-
+커링의 문제: 인자가 많아지면 가독성이 떨어짐
