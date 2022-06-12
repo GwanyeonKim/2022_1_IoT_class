@@ -81,7 +81,11 @@ run을 이용하여 랜덤으로 연료, 연료비 생성됨
 하지만, car.fuel/car.power/car.moved로 내부 값을 직접 바꿀 수 있으므로 이를 막을 필요가 있음  
 
 ### 5.11
+클로저 변수: moved, fuel, power   
 
+내부 변수(fuel, power, moved)에 접근 불가  
+
+moved: ReadOnly  
 
 
 ### 5.12
