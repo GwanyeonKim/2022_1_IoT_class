@@ -66,8 +66,14 @@ a는 inner 함수 내부의 변수가 아님
 alertFruit --> 클로저가 없음  
 alertFruit에 fruit을 args로 넣어주고 새로운 function으로 return한다.  
  
-### 5.10
+### 5.9
+5-08의 alertFruit 대신에 alertFruitBuilder 함수로 작성  
 
+alertFruitBuilder 함수 내부에서 익명 함수 반환 --> 익명함수는 기존의 alertFruit  
+
+alertFruitBuilder의 실행 결과로 반환된 함수에는 클로저가 있음  
+ 
+### 5.10
 
 
 ### 5.11
