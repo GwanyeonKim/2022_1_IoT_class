@@ -109,7 +109,9 @@ originalPartialArgs--> slice-like 함수
 따라서 slice 함수의 인자로 slice-like 인자를 주기 위해 slice.call을 이용
 
 ### 5.15
+Object.defineProperty(object, property) {새로운 정의}
 
+5-14랑 같은 코드 Object.defineProperty 이것만 추가됨
 
 ### 5.16
 
