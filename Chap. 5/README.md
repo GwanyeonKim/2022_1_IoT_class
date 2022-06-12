@@ -1,6 +1,9 @@
 # 2022_1_IoT_class
 
 ## Cha. 5
+
+
+### 5.1
 해당 코드를 보면 function 안에 변수 2개 있음 --> a, inner    
 
 inner 함수 안을 보면 a를 사용함  
@@ -15,11 +18,19 @@ a는 inner 함수 내부의 변수가 아님
 --> 콜스택에 outer 함수가 없어도 (outer)a는 사라지지 않는다  
 --> outer가 콜스택에 없어도 inner가 a를 사용할 수 있음  
 
-### 5.1
-
-
 
 ### 5.2 
+1.변수 콜스택: outer, outer2  
+  데이터 영역: fuction(),  
+
+2. outer 함수 콜스택에 올림  
+   outer 함수 스캔  
+   inner 함수 --> 클로져 변수 a   
+
+   inner 함수 콜스택 올림  
+   a = 2로 증가  
+
+  3. outer2 = 2의 주소를 받음  
 
 
 
