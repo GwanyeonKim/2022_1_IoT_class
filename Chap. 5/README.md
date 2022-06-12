@@ -114,7 +114,11 @@ Object.defineProperty(object, property) {새로운 정의}
 5-14랑 같은 코드 Object.defineProperty 이것만 추가됨
 
 ### 5.16
+디바운스에 대한 예제  
 
+클로저 변수: timeout, eventName, timeoutId, wait  
+
+디바운스를 실행하면 클로저 변수가 묶여 있는 상수 함수가 리턴됨  
 
 ### 5.17
 
