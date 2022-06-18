@@ -89,6 +89,7 @@ But, 숫자, 문자열, 불리언, undefine, null, Symbol 타입같은 원시 �
 따라서, object.prototype이 아닌 object의 스택틱 메서드로 부여해야함  
 
 ### 6.10
-
+대각선의 __proto__를 연결하는 방법은 __proto__가 가리키는 대상  
+즉, 생성자 함수의 prototype이 연결하고자 하는 상위 생성자 함수의 인스턴스를 바라보게끔 해주면 됨  
 
 
