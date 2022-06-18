@@ -62,7 +62,11 @@ iu에 getName 함수가 있으면 그거 실행
 없으면 __proto__의 getName 실행  
 
 ### 6.7
+arr.push(3); = arr.__proto__.push(3);    
+arr.hasOwnProperty(2); =  arr.__proto__.__proto__.hasOwnProperty(2);  
 
+arr에는 push가 없음 --> Array.prototype에 있는 psuh로 감  
+Array.prototype에 hasOwnProperty 없음 --> Object.prototype으로 넘어감  
 
 
 ### 6.8
