@@ -63,6 +63,11 @@ Square 함수 안에 Rectangle 함수가 들어가 있음
 
 
 ### 7.8
+클래스는  구체적인 데이터를 지니지 않음  
+이를 구현하기 위해 프로퍼티들을 일일이 지움  
+
+SubClass는 SuperClass를 상속   
+SubClass에 있는 프로퍼티를 반복문을 통해 지움 
 
 
 
