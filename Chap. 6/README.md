@@ -17,7 +17,16 @@ suzi.getName = suzi.__proto__.getName
 
 
 ### 6.2 
+constructor.prototype    
+- method1  
+- property1    
+- constructor    
 
+instance    
+- __proto__    
+
+옅은색: innumerable  
+짙은색: enumerable  
 
 
 ### 6.3
