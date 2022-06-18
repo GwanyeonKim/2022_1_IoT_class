@@ -49,7 +49,17 @@ Person의 인스턴스
 - p5  
 
 ### 6.6
+Person.prototype    
+- getName  
 
+iu  
+name: 지금  
+getName  
+
+
+iu.getName의 this는 iu   
+iu에 getName 함수가 있으면 그거 실행  
+없으면 __proto__의 getName 실행  
 
 ### 6.7
 
