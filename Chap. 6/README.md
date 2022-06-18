@@ -62,7 +62,7 @@ iu에 getName 함수가 있으면 그거 실행
 없으면 __proto__의 getName 실행  
 
 ### 6.7
-arr.push(3); = arr.__proto__.push(3);    
+arr.push(3); = arr.__proto__.push(3);     
 arr.hasOwnProperty(2); =  arr.__proto__.__proto__.hasOwnProperty(2);  
 
 arr에는 push가 없음 --> Array.prototype에 있는 psuh로 감  
@@ -72,6 +72,21 @@ Array.prototype에 hasOwnProperty 없음 --> Object.prototype으로 넘어감
 arr에 toString이 없음 -->  Array.prototype으로 넘어감  
 Object.prototype에도 toString이 있지만 바로 위에 있는 Array.prototype의 toString을 사용  
 
+
+### 6.9
+객체란 이름(key 혹은 prop)과 값(value)으로 구성된 프로퍼드의 정렬되지 않은 집합이다.  
+Array, Function, Date, RegExp, Map, WeekMap, Set, WeakSet  
+
+프로퍼치의 값으로 함수가 올수 있음 --> 이러한 프로퍼티를 메소드(method)라고 함    
+
+JS에서 숫자, 문자열, 불리언, undefined, null, Symbol 타입을 제외한 모든 것이 객체임  
+
+But, 숫자, 문자열, 불리언, undefine, null, Symbol 타입같은 원시 타입은 값이 정해진 객체로 취급  
+--> 객체로서의 특징도 함께 가지고 있음  
+  
+  
+객체가 아닌 데이터 타입은 오류가 나야하는데 프로토타입 체이닝을 통해 getEntries 메서드에 접근할 수 있어서 아래 코드가 오류 없이 동작  
+따라서, object.prototype이 아닌 object의 스택틱 메서드로 부여해야함  
 
 ### 6.10
 
