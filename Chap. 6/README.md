@@ -68,8 +68,9 @@ arr.hasOwnProperty(2); =  arr.__proto__.__proto__.hasOwnProperty(2);
 arr에는 push가 없음 --> Array.prototype에 있는 psuh로 감  
 Array.prototype에 hasOwnProperty 없음 --> Object.prototype으로 넘어감  
 
-
 ### 6.8
+arr에 toString이 없음 -->  Array.prototype으로 넘어감  
+Object.prototype에도 toString이 있지만 바로 위에 있는 Array.prototype의 toString을 사용  
 
 
 ### 6.10
