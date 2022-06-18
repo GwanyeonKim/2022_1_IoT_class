@@ -91,7 +91,16 @@ subClass의 prototype의 __proto__가 SuperClass의 prototype을 바라봄
 
 
 ### 7.11
+해당 코드는 7-8에  
+SubClass.prototype.consturctor = SubClass;  
+위 구문을 추가함   
 
+
+앞선 예제는 상속을 구현했지만 문제가 있음  
+subClass 인스턴스의 contructor는 여전히 superClass를 가리킴   
+
+해결법: subCalss.prototype.constructor가 원래의 subclass를 바라보도록 해주면 됨   
+  
 
 
 ### 7.12
