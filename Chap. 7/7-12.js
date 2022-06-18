@@ -4,14 +4,6 @@
 
 해당 코드는 7-9에 
 SubClass.prototype.consturctor = SubClass;
-와
-
-if (subMethods) {
-  for (var method in subMethods) {
-    SubClass.prototype[method] = subMethods[method];
-  }
-}
-
 위 구문을 추가함 
 
 
