@@ -81,7 +81,13 @@ SubClass에 있는 프로퍼티를 반복문을 통해 지움
 
 
 ### 7.10
+Object 클래스 사용  
+간단한게 장점  
 
+subClass의 prototype의 __proto__가 SuperClass의 prototype을 바라봄  
+단, SuperClass의 인스턴스가 되지는 않음  
+
+따라서 앞선 두 예제보다 간단하고 안전하다.  
 
 
 ### 7.11
