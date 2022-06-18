@@ -104,13 +104,22 @@ subClass 인스턴스의 contructor는 여전히 superClass를 가리킴
 
 
 ### 7.12
-해당 코드는 7-9에 
-SubClass.prototype.consturctor = SubClass;
-위 구문을 추가함 
+해당 코드는 7-9에   
+SubClass.prototype.consturctor = SubClass;  
+위 구문을 추가함   
 
 
 ### 7.13
+해당 코드는 7-10에   
+SubClass.prototype.consturctor = SubClass;  
+와  
+if (subMethods) {  
+  for (var method in subMethods) {  
+    SubClass.prototype[method] = subMethods[method];  
+  }  
+}  
 
+위 구문을 추가함   
 
 ### 7.14
 
