@@ -46,7 +46,11 @@ g는 length가 없기 때문에 __proto__의 length로 실행됨
 __proto__의 length는 5로 증가  
 
 ### 7.5
+this로 width, height를 만듬  
+Rectangle의 prototype에 getArea 함수를 만듬 --> 클래스 안에 함수 만드는 느낌으로  
+__proto__에 있는 getArea 실행  
 
+Square 함수도 비슷하게 만듬  
 
 ### 7.6
 
